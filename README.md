@@ -78,3 +78,6 @@ Run the unit tests to ensure everything is functioning correctly:
 ```bash
 npm test
 ```
+
+### Documentation
+Further documentation and details about API endpoints can be found using the Swagger documentation provided at http://localhost:3000/docs.
