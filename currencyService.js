@@ -1,5 +1,5 @@
 const axios = require('axios');
-const API_KEY = 'APY037kciTEzxQD9AndMROC4UetLWsJWPcnkSnMbXDSqh2gqo2IDc6pyCqjKmmQcvdB7OO';
+const API_KEY = process.env.API_KEY;
 const API_URL = 'https://api.apyhub.com/data/convert/currency/multiple';
 
 const NodeCache = require('node-cache');

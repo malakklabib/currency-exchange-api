@@ -3,6 +3,9 @@ const { convertCurrency } = require('./currencyService');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+require('dotenv').config();
+
+
 app.get('/api/exchange', async (req, res) => {
     try {
         const { source, target, date } = req.query;
